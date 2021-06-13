@@ -1,4 +1,4 @@
-package com.fju;
+package com.fju.food;
 
 public abstract class Menu {
     String id;
