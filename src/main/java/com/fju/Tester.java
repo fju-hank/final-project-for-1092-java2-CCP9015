@@ -1,7 +1,14 @@
 package com.fju;
 
+import java.io.*;
+
 public class Tester {
     public static void main(String[] args) {
-        System.out.println("Hello");
+       ReadFile readFile = new ReadFile();
+       readFile.print();
+       }
+
+
+
     }
-}
+

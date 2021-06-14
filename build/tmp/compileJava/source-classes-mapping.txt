@@ -1,2 +1,22 @@
+com/fju/food/Cheese.java
+ com.fju.food.Cheese
+com/fju/food/Salmon.java
+ com.fju.food.Salmon
+com/fju/food/Beef.java
+ com.fju.food.Beef
+com/fju/food/Menu.java
+ com.fju.food.Menu
+com/fju/food/Pork.java
+ com.fju.food.Pork
+com/fju/food/Fish.java
+ com.fju.food.Fish
+com/fju/food/GrilledEel.java
+ com.fju.food.GrilledEel
+com/fju/food/Mixed.java
+ com.fju.food.Mixed
+com/fju/food/Drumstick.java
+ com.fju.food.Drumstick
+com/fju/ReadFile.java
+ com.fju.ReadFile
 com/fju/Tester.java
  com.fju.Tester
