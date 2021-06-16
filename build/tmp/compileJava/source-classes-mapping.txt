@@ -1,22 +1,46 @@
-com/fju/food/Cheese.java
- com.fju.food.Cheese
+com/fju/ReadFile.java
+ com.fju.ReadFile
+com/fju/food/LemonSmoothie.java
+ com.fju.food.LemonSmoothie
 com/fju/food/Salmon.java
  com.fju.food.Salmon
 com/fju/food/Beef.java
  com.fju.food.Beef
-com/fju/food/Menu.java
- com.fju.food.Menu
-com/fju/food/Pork.java
- com.fju.food.Pork
+com/fju/food/SteamedEggs.java
+ com.fju.food.SteamedEggs
+com/fju/food/Coke.java
+ com.fju.food.Coke
+com/fju/food/OnsenTamago.java
+ com.fju.food.OnsenTamago
 com/fju/food/Fish.java
  com.fju.food.Fish
+com/fju/food/Tempura.java
+ com.fju.food.Tempura
+com/fju/food/FrenchFries.java
+ com.fju.food.FrenchFries
+com/fju/food/Calpis.java
+ com.fju.food.Calpis
+com/fju/food/Vegetables.java
+ com.fju.food.Vegetables
+com/fju/food/MangoPudding.java
+ com.fju.food.MangoPudding
+com/fju/food/Drumstick.java
+ com.fju.food.Drumstick
+com/fju/food/Menu.java
+ com.fju.food.Menu
+com/fju/food/Cheese.java
+ com.fju.food.Cheese
+com/fju/food/Pork.java
+ com.fju.food.Pork
+com/fju/food/HanjukuEgg.java
+ com.fju.food.HanjukuEgg
 com/fju/food/GrilledEel.java
  com.fju.food.GrilledEel
 com/fju/food/Mixed.java
  com.fju.food.Mixed
-com/fju/food/Drumstick.java
- com.fju.food.Drumstick
-com/fju/ReadFile.java
- com.fju.ReadFile
+com/fju/food/MatchaPudding.java
+ com.fju.food.MatchaPudding
 com/fju/Tester.java
  com.fju.Tester
+com/fju/food/Gyoza.java
+ com.fju.food.Gyoza
