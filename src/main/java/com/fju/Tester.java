@@ -3,6 +3,9 @@ package com.fju;
 import com.fju.food.*;
 
 import java.io.*;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Tester {
@@ -16,7 +19,7 @@ public class Tester {
         };
         Scanner scan = new Scanner(System.in);
         String input = null;
-        int end = -1;
+
         ReadFile readFile = new ReadFile();
         readFile.print();
         System.out.println();
@@ -30,9 +33,7 @@ public class Tester {
 
                 }
 
-
             }
-
 
     }
     }
