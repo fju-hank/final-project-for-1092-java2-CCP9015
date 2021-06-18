@@ -19,22 +19,28 @@ public class Tester {
         };
         Scanner scan = new Scanner(System.in);
         String input = null;
-
+        int end = -1;
+        int sum = 0;
         ReadFile readFile = new ReadFile();
         readFile.print();
         System.out.println();
-        System.out.println("你今天想吃甚麼");
-
+        System.out.println("你今天想吃甚麼?  如果想結束點餐請輸入end");
+        do{
             input = scan.next();
             for (Menu order : food) {
                 if (order.name(input)) {
                     System.out.println(order.getName() + "\t" + order.price());
-                    break;
+                    sum = sum + order.price();
 
+                }
+                else if(input.equals("end")){
+                    System.out.println("總價:" + sum);
+                    end = 0;
                 }
 
             }
 
+    }while (end != 0);
     }
     }
 

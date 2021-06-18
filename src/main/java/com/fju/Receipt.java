@@ -20,7 +20,7 @@ public class Receipt {
                 String tax = scan.next();
                 System.out.println("109年5月-6月");
                 System.out.print("CP-");
-                for (int j = 0; j < 10; j++) {
+                for (int j = 0; j < 9; j++) {
                     i[j] = random.nextInt(8) + 1;
                     System.out.print(i[j]);
                 }
