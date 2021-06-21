@@ -17,6 +17,7 @@ public class Tester {
                 new Pork(), new Salmon(), new SteamedEggs(), new Tempura(), new Vegetables()
 
         };
+        String foodName;
         Scanner scan = new Scanner(System.in);
         String input = null;
         int end = -1;
@@ -29,18 +30,24 @@ public class Tester {
             input = scan.next();
             for (Menu order : food) {
                 if (order.name(input)) {
-                    System.out.println(order.getName() + "\t" + order.price());
+                    System.out.println(order.getName() + "\t" + "NT$" + order.price());
                     sum = sum + order.price();
+
+
 
                 }
                 else if(input.equals("end")){
-                    System.out.println("總價:" + sum);
                     end = 0;
                 }
 
             }
 
     }while (end != 0);
+        System.out.println("總價:" + sum + "元");
+        Receipt receipt = new Receipt();
+        receipt.number();
+        System.out.println("總價:" + sum+ "元");
+        System.out.println("-------------");
     }
     }
 
