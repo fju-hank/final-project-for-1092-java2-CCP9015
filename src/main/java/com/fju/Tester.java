@@ -22,18 +22,23 @@ public class Tester {
         String input = null;
         int end = -1;
         int sum = 0;
+        int price;
+
+
         ReadFile readFile = new ReadFile();
         readFile.print();
         System.out.println();
-        System.out.println("你今天想吃甚麼?  如果想結束點餐請輸入end");
+        System.out.println("你今天想吃甚麼?請輸入代號，如果想結束點餐請輸入end");
         do{
             input = scan.next();
             for (Menu order : food) {
                 if (order.name(input)) {
-                    System.out.println(order.getName() + "\t" + "NT$" + order.price());
-                    sum = sum + order.price();
 
-
+                    System.out.println("請輸入數量");
+                    int num = scan.nextInt();
+                    price = order.price()*num;
+                    System.out.println(order.getName() + "*" + num + "\t" + "NT$" + price);
+                    sum = sum + price;
 
                 }
                 else if(input.equals("end")){
