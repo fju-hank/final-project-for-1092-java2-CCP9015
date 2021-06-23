@@ -9,6 +9,9 @@ public class Receipt {
     public Receipt number() {
 
         {
+            String yy = "110";
+            String m1 = "5";
+            String m2 = "6";
 
             int i[] = new int[8];
             Random random = new Random();
@@ -19,7 +22,7 @@ public class Receipt {
                 System.out.println("請輸入統一編號 :");
                 String tax = scan.next();
                 System.out.println("----------------------");
-                System.out.println("110年5月-6月");
+                System.out.println(yy + "年" + m1 + "月" + m2 + "月");
                 System.out.print("CP-");
                 for (int j = 0; j < 8; j++) {
                     i[j] = random.nextInt(10);
@@ -33,7 +36,7 @@ public class Receipt {
             }
             if (ans.equals("N")) {
                 System.out.println("----------------------");
-                System.out.println("109年5月-6月");
+                System.out.println(yy + "年" + m1 + "月" + m2 + "月");
                 System.out.print("CP-");
                 for (int j = 0; j < 8; j++) {
                     i[j] = random.nextInt(10);
