@@ -29,7 +29,7 @@ public class Tester {
         System.out.println();
 
         do{
-            System.out.println("你今天想吃甚麼?請輸入代號，如果想結束點餐請輸入end");
+            System.out.println("你今天想吃什麼? 請輸入代號，如果想結束點餐請輸入end");
             input = scan.next();
             for (Menu order : food) {
                 if (order.name(input)) {
