@@ -28,8 +28,8 @@ com/fju/food/Menu.java
  com.fju.food.Menu
 com/fju/food/Cheese.java
  com.fju.food.Cheese
-com/fju/Receipt.java
- com.fju.Receipt
+com/fju/food/Gyoza.java
+ com.fju.food.Gyoza
 com/fju/ReadFile.java
  com.fju.ReadFile
 com/fju/food/Pork.java
@@ -42,7 +42,7 @@ com/fju/food/Mixed.java
  com.fju.food.Mixed
 com/fju/food/MatchaPudding.java
  com.fju.food.MatchaPudding
-com/fju/food/Gyoza.java
- com.fju.food.Gyoza
+com/fju/Receipt.java
+ com.fju.Receipt
 com/fju/Tester.java
  com.fju.Tester

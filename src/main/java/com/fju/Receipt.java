@@ -22,8 +22,8 @@ public class Receipt {
                 System.out.println("請輸入統一編號 :");
                 String tax = scan.next();
                 System.out.println("----------------------");
-                System.out.println(yy + "年" + m1 + "月" + m2 + "月");
-                System.out.print("CP-");
+                System.out.println("\t" + yy + "年" + m1 + "月" + m2 + "月");
+                System.out.print("\t" + "CP-");
                 for (int j = 0; j < 8; j++) {
                     i[j] = random.nextInt(10);
                     System.out.print(i[j]);
@@ -36,8 +36,8 @@ public class Receipt {
             }
             if (ans.equals("N")) {
                 System.out.println("----------------------");
-                System.out.println(yy + "年" + m1 + "月" + m2 + "月");
-                System.out.print("CP-");
+                System.out.println("\t" + yy + "年" + m1 + "月" + m2 + "月");
+                System.out.print("\t" + "CP-");
                 for (int j = 0; j < 8; j++) {
                     i[j] = random.nextInt(10);
                     System.out.print(i[j]);
