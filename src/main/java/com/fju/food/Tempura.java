@@ -7,7 +7,7 @@ public class Tempura extends Menu{
 
     @Override
     public String getName() {
-        return "天婦羅";
+        return "天婦羅　";
     }
 
     @Override

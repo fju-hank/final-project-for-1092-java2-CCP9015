@@ -7,7 +7,7 @@ public class HanjukuEgg extends Menu{
 
     @Override
     public String getName() {
-        return "溏心蛋";
+        return "溏心蛋　";
     }
 
     @Override

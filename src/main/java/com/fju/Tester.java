@@ -1,7 +1,9 @@
 package com.fju;
 
 import com.fju.food.*;
+import com.fju.food.Menu;
 
+import java.awt.*;
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -29,7 +31,7 @@ public class Tester {
         System.out.println();
 
         do{
-            System.out.println("你今天想吃什麼? 請輸入代號，如果想結束點餐請輸入end");
+            System.out.println("你今天想吃什麼? 請輸入代號，如果想結束點餐請輸入N");
             input = scan.next();
             for (Menu order : food) {
                 if (order.name(input)) {
@@ -43,7 +45,7 @@ public class Tester {
                     hashMap.put(name ,price);
 
                 }
-                else if(input.equals("end")){
+                else if(input.equals("N")){
                     end = 0;
                 }
 
@@ -54,11 +56,12 @@ public class Tester {
         Receipt receipt = new Receipt();
         receipt.number();
         Set<String> order = hashMap.keySet();
+        System.out.println("餐點項目" + "\t\t" + "價錢");
         for (String read : order) {
             System.out.println(read + "\t" + "NT$" + hashMap.get(read));
             
         }
-        System.out.println("總價:" + sum+ "元");
+        System.out.println("\t\t\t" + "總價:" + sum+ "元");
         System.out.println("----------------------");
     }
     }

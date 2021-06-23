@@ -7,7 +7,7 @@ public class OnsenTamago extends Menu{
 
     @Override
     public String getName() {
-        return "溫泉蛋";
+        return "溫泉蛋　";
     }
 
     @Override

@@ -7,7 +7,7 @@ public class SteamedEggs extends Menu{
 
     @Override
     public String getName() {
-        return "茶碗蒸";
+        return "茶碗蒸　";
     }
 
     @Override
