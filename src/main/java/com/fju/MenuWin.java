@@ -118,6 +118,32 @@ public class MenuWin {
         bt16.setFont(font);
         jFrame.add(bt16);
 
+        Font font1 = new Font("新細明體",Font.BOLD,30);
+        Label ordered = new Label("Your ordered：");
+        ordered.setFont(font1);
+        ordered.setForeground(Color.ORANGE);
+        ordered.setBounds(890,30,350,50);
+        jFrame.add(ordered);
+
+        final List list = new List();
+        list.setFont(font1);
+        list.setForeground(Color.BLUE);
+        list.setBounds(890,40,330,550);
+        jFrame.add(list);
+
+        Label price = new Label("NT$：");
+        price.setFont(font1);
+        price.setForeground(Color.ORANGE);
+        price.setBounds(890,600,350,50);
+        jFrame.add(price);
+
+        JButton button1 = new JButton("結帳");
+        button1.setBounds(950,660,100,50);
+        JButton button3 = new JButton("取消");
+        button3.setBounds(1080,660,100,50);
+
+        jFrame.add(button1);
+        jFrame.add(button3);
 
 
 
