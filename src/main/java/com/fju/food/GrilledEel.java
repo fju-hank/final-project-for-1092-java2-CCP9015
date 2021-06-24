@@ -1,5 +1,7 @@
 package com.fju.food;
 
+import javax.swing.*;
+
 public class GrilledEel extends Menu{
     public GrilledEel(){
             id = "a";
@@ -14,4 +16,6 @@ public class GrilledEel extends Menu{
     public int price() {
         return 220;
     }
+
+
 }
