@@ -52,7 +52,8 @@ public class Tester {
             }
 
     }while (end != 0);
-
+        Payments payments = new Payments();
+        payments.paid();
         System.out.println("總價:" + sum + "元");
         Receipt receipt = new Receipt();
         receipt.number();

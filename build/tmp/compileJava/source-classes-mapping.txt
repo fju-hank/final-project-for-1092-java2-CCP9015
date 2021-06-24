@@ -4,8 +4,8 @@ com/fju/food/Salmon.java
  com.fju.food.Salmon
 com/fju/food/Beef.java
  com.fju.food.Beef
-com/fju/Tester.java
- com.fju.Tester
+com/fju/food/SteamedEggs.java
+ com.fju.food.SteamedEggs
 com/fju/food/Coke.java
  com.fju.food.Coke
 com/fju/food/OnsenTamago.java
@@ -46,5 +46,7 @@ com/fju/food/MatchaPudding.java
  com.fju.food.MatchaPudding
 com/fju/food/Gyoza.java
  com.fju.food.Gyoza
-com/fju/food/SteamedEggs.java
- com.fju.food.SteamedEggs
+com/fju/Payments.java
+ com.fju.Payments
+com/fju/Tester.java
+ com.fju.Tester
