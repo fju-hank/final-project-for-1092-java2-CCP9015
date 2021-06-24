@@ -52,6 +52,7 @@ public class Tester {
             }
 
     }while (end != 0);
+
         System.out.println("總價:" + sum + "元");
         Receipt receipt = new Receipt();
         receipt.number();
