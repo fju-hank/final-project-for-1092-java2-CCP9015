@@ -25,10 +25,16 @@ public class Tester {
         int sum = 0;
         int price;
 
-       HashMap<String, Integer> hashMap = new HashMap<>();
-        ReadFile readFile = new ReadFile();
-        readFile.print();
+        WhereToEat whereToEat = new WhereToEat();
+        whereToEat.greetings();
         System.out.println();
+
+        HashMap<String, Integer> hashMap = new HashMap<>();
+
+       ReadFile readFile = new ReadFile();
+       readFile.print();
+       System.out.println();
+
 
         do{
             System.out.println("你今天想吃什麼? 請輸入代號，如果想結束點餐請輸入N");
@@ -64,6 +70,7 @@ public class Tester {
             
         }
         System.out.println("\t\t\t" + "總價:" + sum+ "元");
+        System.out.println("\t" + "~用餐愉快~");
         System.out.println("----------------------");
     }
     }
